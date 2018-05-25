@@ -20,7 +20,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  var s = "In your cart, you have "
+  for(var i=0;i<cart.length;i++){
+    s+=`${cart[1].itemName} at ${cart[1].itemName} 
+    
+  }
+  cart
+  
 }
 
 function total() {
