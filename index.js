@@ -1,5 +1,5 @@
 var cart = [];
-test()
+//test()
 function test(){
   var q = {'fname':'bob','lname':'smith'}
   var t = [q]
