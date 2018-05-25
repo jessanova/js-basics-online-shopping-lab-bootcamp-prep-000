@@ -1,5 +1,11 @@
 var cart = [];
-addToCart("test")
+test()
+function test(){
+  var t = [{name:bob}]
+  console.log(`${t}`)
+  console.log(`$t[0]`)
+  console.log(`$t[0].name`)
+}
 
 function getCart() {
  return cart;
