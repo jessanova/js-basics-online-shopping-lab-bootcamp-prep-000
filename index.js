@@ -3,6 +3,7 @@ test()
 function test(){
   var q = {'name':'bob'}
   var t = [q]
+  console.log({'name':'bob'})
   console.log(`${q}`)
   console.log(`${t}`)
   console.log(`${t[0]}`)
