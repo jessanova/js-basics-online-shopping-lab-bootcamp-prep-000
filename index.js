@@ -47,7 +47,9 @@ function viewCart() {
 }
 
 function total() {
-  cart.forEach()
+  var x = 0
+  cart.forEach(function(){x+=})
+  return x
 }
 
 function removeFromCart(item) {
