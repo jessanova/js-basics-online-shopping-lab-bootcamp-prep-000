@@ -20,12 +20,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var s = "In your cart, you have "
-  for(var i=0;i<cart.length;i++){
-    s+=`${cart[1].itemName} at ${cart[1].itemName} 
-    
+  if(cart.length==0){return "Your shopping cart is empty."}
+  var s = `In your cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}` 
+  for(var i=1;i<cart.length-1;i++){
+    s+=`, ${cart[i].itemName} at $${cart[i].itemPrice}` 
   }
-  cart
+  s+=`, and ${cart[i].itemName} at $${cart[i].itemPrice}.`
+  return s
   
 }
 
