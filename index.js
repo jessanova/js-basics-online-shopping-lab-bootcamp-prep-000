@@ -3,13 +3,15 @@ test()
 function test(){
   var q = {'name':'bob'}
   var t = [q]
-  console.log({'name':'bob'})
+  console.log({'fname':'bob','lname':'smith'})
   console.log(q)
   console.log(`${q}`)
   console.log(t)
   console.log(`${t}`)
+  console.log(t[0])
   console.log(`${t[0]}`)
-  console.log(`${t[0].name}`)
+  console.log(t[0].fname)
+  console.log(`${t[0].fname}`)
 }
 
 function getCart() {
