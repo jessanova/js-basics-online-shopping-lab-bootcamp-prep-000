@@ -1,7 +1,7 @@
 var cart = [];
 test()
 function test(){
-  var q = {'name':'bob'}
+  var q = {'fname':'bob','lname':'smith'}
   var t = [q]
   console.log({'fname':'bob','lname':'smith'})
   console.log(q)
